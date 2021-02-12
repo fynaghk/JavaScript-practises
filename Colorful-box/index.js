@@ -7,22 +7,10 @@ const yellowBtn = document.querySelector("#yellow");
 const box = document.querySelector("#box");
 const again = false;
 
-while(again==false){
-  redBtn.addEventListener("click", ()=>{
-    box.style.background="red";
-    if(again == false){
-      redBtn.addEventListener("click", ()=>{
-        box.style.background="rgb(56, 0, 0)";
-        again = true;
-    })
-  }else{
-    redBtn.addEventListener("click", ()=>{
-      return box;
-      again = false;
-    })
-  }
-  })
-}
+redBtn.addEventListener("click", ()=>{
+  box.style.background="red";
+})
+
 greenBtn.addEventListener("click", ()=>{
   box.style.background="green";
 })
