@@ -48,3 +48,8 @@ td{
   box-shadow: 1px 1px 5px black;
 }
 
+td:hover{
+  background-color: rgb(88, 88, 88);
+  border: 1px solid rgb(88, 88, 88);
+  color: white;
+}

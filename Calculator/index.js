@@ -28,3 +28,14 @@ const input = document.querySelector("#screen"),
        doubleZeroBtn = document.querySelector("#doubleZero"),
        dotBtn = document.querySelector("#dot");
 
+const keys = document.querySelector("button");
+
+modulBtn.addEventListener("click", ()=>{
+
+})
+
+keys.addEventListener("click", e => {
+       if (e.target.matches("button")){
+
+       }
+       })
