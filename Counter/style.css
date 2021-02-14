@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ecffec;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+}
+
+.parent {
+  border: 5px solid #310231;
+  width: 500px;
+  height: 500px;
+  background-color: #500450;
+}
+
+.child {
+  background-color: #ecffec;
+  width: 400px;
+  height: 400px;
+  margin-left: 45px;
+  margin-top: 45px;
+  border: 5px solid #310231;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h2 {
+  margin-left: 130px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #310231;
+  font-size: 40px;
+}
+
+h1 {
+  color: #310231;
+  font-size: 50px;
+  margin-left: 180px;
+  margin-bottom: 40px;
+}
+
+button {
+  width: 200px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  height: 30px;
+  font-weight: bold;
+  outline: none;
+  background-color: white;
+  border: 2px solid #310231;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
