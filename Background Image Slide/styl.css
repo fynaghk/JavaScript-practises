@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf8f2;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+.container {
+  border: 6px solid brown;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  width: 600px;
+}
+
+.fa-arrow-circle-left, .fa-arrow-circle-right {
+  position: absolute;
+  font-size: 50px;
+  margin-top: 230px;
+  margin-left: -20px;
+  color: #0e3b2a;
+  border: 2px solid brown;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.circles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styl.css.map */
