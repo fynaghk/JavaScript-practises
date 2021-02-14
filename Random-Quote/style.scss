@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;}
+
+section{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(192, 192, 192);
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.parent{
+  background-color: aliceblue;
+  width: 450px;
+  height: 450px;
+  border: 2px solid grey;
+}
+
+.child{
+  width: 400px;
+  height: 400px;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(36, 57, 58);
+  margin-top: 50px;
+  margin-left: 150px;
+  background-color: cadetblue;
+  outline: none;
+}
+
+.quote_class{
+  display: flex;
+  margin: 40px;
+}
+
+.fa-quote-left{
+  font-size: 50px;
+  color: rgb(54, 59, 68);
+  margin-right: 15px;
+  display: inline;
+}
+
+h2{
+  color: rgb(63, 101, 104);
+  margin-left: 20px;
+}
+
+h5{
+  color: rgb(54, 59, 68);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+  margin-left: 20px;
+}
