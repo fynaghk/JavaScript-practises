@@ -29,11 +29,11 @@ img{
 .fa-arrow-circle-left, .fa-arrow-circle-right{
   position: absolute;
   font-size: 50px;
-  margin-top: 230px;
-  margin-left: -20px;
+  margin-top: 200px;
+  margin-left: -24px;
   color: rgb(14, 59, 42);
-  border: 2px solid brown;
   border-radius: 50%;
+  padding: 1px;
   background-color: white;
   z-index: 3;
   cursor: pointer;
@@ -42,4 +42,33 @@ img{
 .circles{
   display: flex;
   justify-content: center;
+  z-index: 5;
+  margin-top: -20px;
+}
+
+img{
+  background-image: "./images/image3.png" !important;
+}
+
+button{
+  background: wheat;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: brown;
+  cursor: pointer;
+  outline: none;
+  margin-left: 5px;
+}
+
+#first{
+  background-color: brown;
+}
+
+figure{
+  width: 700px;
+  height: 450px;
+  background-image: url("./images/image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
