@@ -11,8 +11,9 @@ body{
   width: 200px;
   height: 200px;
   transform: translate(90%, 50%);
-  background-color: rgb(56, 0, 0);
+  background-color: white;
   border-radius: 10px;
+  border: 2px solid black;
 }
 
 button{
