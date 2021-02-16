@@ -10,11 +10,43 @@ main{
   margin-top: 100px;
 }
 
+img{
+  opacity: 0.5;
+}
+
 .main{
   background-color: rgb(119, 119, 119);
-  background-image: url("./images/car.webp");
+  background-image: url("./images/bmw.webp");
   background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: initial;
   width: 900px;
   height: 500px;
+  box-shadow: 1px 1px 10px black;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
 }
+
+.arrow{
+  margin-top: 200px;
+  color: rgb(65, 63, 63);
+  font-size: 40px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+}
+
+.content{
+  width: 700px;
+  display: flex;
+  box-shadow: 0px 0px 100px gray;
+  border: 3px solid black;
+}
+
+
+
 

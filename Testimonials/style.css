@@ -15,11 +15,48 @@ main {
   margin-top: 100px;
 }
 
+img {
+  opacity: 0.5;
+}
+
 .main {
   background-color: #777777;
-  background-image: url("./images/car.webp");
+  background-image: url("./images/bmw.webp");
   background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-backface-visibility: initial;
+          backface-visibility: initial;
   width: 900px;
   height: 500px;
+  -webkit-box-shadow: 1px 1px 10px black;
+          box-shadow: 1px 1px 10px black;
+  border: 3px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arrow {
+  margin-top: 200px;
+  color: #413f3f;
+  font-size: 40px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.content {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 100px gray;
+          box-shadow: 0px 0px 100px gray;
+  border: 3px solid black;
 }
 /*# sourceMappingURL=style.css.map */
