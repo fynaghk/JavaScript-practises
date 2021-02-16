@@ -1,1 +1,25 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.main {
+  background-color: #777777;
+  background-image: url("./images/car.webp");
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 500px;
+}
+/*# sourceMappingURL=style.css.map */
