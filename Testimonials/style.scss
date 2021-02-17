@@ -10,18 +10,13 @@ main{
   margin-top: 100px;
 }
 
-img{
-  opacity: 0.5;
-}
-
 .main{
-  background-color: rgb(119, 119, 119);
-  background-image: url("./images/bmw.webp");
+  background-image: url("./images/coffee.webp");
   background-repeat: no-repeat;
   background-size: cover;
   backface-visibility: initial;
   width: 900px;
-  height: 500px;
+  height:500px;
   box-shadow: 1px 1px 10px black;
   border: 3px solid black;
   display: flex;
@@ -46,6 +41,32 @@ img{
   box-shadow: 0px 0px 100px gray;
 }
 
+.title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: #7e5a4e;
+  width: 400px;
+  margin: 100px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
 
+#subTitle{
+  color: rgb(246, 255, 224);
+  text-align: center;
+}
 
+#title{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
 
+img{
+  width: 100px;
+  margin-left: 250px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
