@@ -38,35 +38,48 @@ main{
 .content{
   width: 700px;
   display: flex;
-  box-shadow: 0px 0px 100px gray;
-}
-
-.title{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid black;
-  background-color: #7e5a4e;
-  width: 400px;
-  margin: 100px;
-  margin-top: 55px;
-  margin-bottom: 30px;
-}
-
-#subTitle{
-  color: rgb(246, 255, 224);
-  text-align: center;
-}
-
-#title{
-  text-align: center;
-  font-size: 40px;
-  color: white;
 }
 
 img{
   width: 100px;
-  margin-left: 250px;
+  margin-top: 80px;
+  margin-left: 260px;
   border: 2px solid white;
   border-radius: 50%;
+}
+
+.icons{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fa-star{
+  width: 25px;
+  font-size: 25px;
+  color: white;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: #e4ddd6;
+  margin-top: 30px;
+  width: 620px;
+  padding: 25px;
+  font-weight: 600;
+}
+
+.fa-quote-left{
+  padding-top: 20x;
+  font-size: 40px;
+  text-align: center;
+}
+
+.icons_circle{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
 }
