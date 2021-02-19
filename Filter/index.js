@@ -54,16 +54,6 @@ function findFantasy(){
   }
 }
 
-function findFantasy(){
-  findAll();
-  for(let i = 0; i<book.length; i++){
-    if(book[i].id === "uc" || book[i].id === "sekkiz" || book[i].id === "on"){
-      book[i].style.visibility = "visible";
-    }else{
-      book[i].style.display = "none";
-    }
-  }
-}
 
 function findHorror(){
   findAll();
