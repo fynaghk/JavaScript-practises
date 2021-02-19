@@ -14,6 +14,7 @@ a{
 img{
   width: 150px;
   height: 230px;
+  margin-left: 23px;
 }
 
 .title{
@@ -72,7 +73,7 @@ input{
   border: white;
   border-radius: 2px;
   width: 300px;
-  font-size: 18px;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -109,17 +110,15 @@ section{
 }
 
 .book{
+  display: block;
   border: 2px solid black;
   padding-bottom: 10px;
   width: 200px;
   height: 290px;
   background-color: white;
   margin: 20px;
-  display: flex;
-  justify-content: center;
   position: relative;
   cursor: pointer;
-  flex-wrap: wrap;
 }
 
 .down{
@@ -128,7 +127,8 @@ section{
   position: absolute;
   color: white;
   padding: 10px;
-  margin-left: -25px;
+  margin-left: -2px;
+  margin-bottom: -6px;
 }
 
 #special{
