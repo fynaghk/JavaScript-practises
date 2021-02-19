@@ -1,0 +1,85 @@
+$main-color: rgb(114, 23, 38);
+$main-text-color: rgb(3, 59, 3);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 200px;
+}
+
+.title{
+  text-align: center;
+}
+
+.purple{
+  color: $main-color;
+  font-size: 40px;
+}
+
+.green{
+  color: $main-text-color;
+  font-size: 30px;
+}
+
+.subTitle{
+  color: $main-text-color;
+  font-size: 30px;
+  text-align: center;
+}
+
+button{
+  border:2px solid $main-color;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  color: $main-text-color;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+}
+
+.searcing{
+  background-color: $main-color;
+  padding: 10px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  padding: 7px;
+  display: block;
+  outline: none;
+  border: white;
+  border-radius: 2px;
+  width: 300px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+label{
+  color: white;
+  font-size: 23px;
+  margin: 5px;
+  margin-left: 300px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: rgb(219, 216, 216);
+  padding: 20px;
+}
