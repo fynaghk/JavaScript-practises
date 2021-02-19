@@ -7,8 +7,13 @@ $main-text-color: rgb(3, 59, 3);
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 img{
   width: 150px;
+  height: 230px;
 }
 
 .title{
@@ -67,25 +72,28 @@ input{
   border: white;
   border-radius: 2px;
   width: 300px;
-  font-size: 15px;
+  font-size: 18px;
   font-style: italic;
 }
 
 label{
   color: white;
   font-size: 23px;
-  margin: 5px;
+  margin: 10px;
   margin-left: 300px;
+  cursor: pointer;
 }
 
 section{
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  flex-wrap: wrap;
 }
 
 .center{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   border: 2px solid black;
   background-color: rgb(230, 230, 230);
@@ -95,6 +103,7 @@ section{
 .allBooks{
   display: flex;
   width: 750px;
+  justify-content: space-around;
   flex-wrap: wrap;
 
 }
@@ -103,6 +112,26 @@ section{
   border: 2px solid black;
   padding-bottom: 10px;
   width: 200px;
+  height: 290px;
   background-color: white;
   margin: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.down{
+  background-color: $main-text-color;
+  width: 200px;
+  position: absolute;
+  color: white;
+  padding: 10px;
+  margin-left: -25px;
+}
+
+#special{
+  margin-top: -15px;
+  padding: 8px;
 }
