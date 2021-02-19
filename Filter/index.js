@@ -24,7 +24,7 @@ function findAll(){
 function findClassic(){
   findAll();
   for(let i = 0; i<book.length; i++){
-    if(book[i].id === "alti" || book[i].id === "onIki"){
+    if(book[i].className === "book classic"){
       book[i].style.visibility = "visible";
     }else{
       book[i].style.display = "none";
@@ -35,7 +35,7 @@ function findClassic(){
 function findDetective(){
   findAll();
   for(let i = 0; i<book.length; i++){
-    if(book[i].id === "bes" || book[i].id === "doqquz"){
+    if(book[i].className === "book detective"){
       book[i].style.visibility = "visible";
     }else{
       book[i].style.display = "none";
@@ -46,7 +46,7 @@ function findDetective(){
 function findFantasy(){
   findAll();
   for(let i = 0; i<book.length; i++){
-    if(book[i].id === "iki" || book[i].id === "yeddi" || book[i].id === "onBir"){
+    if(book[i].className === "book fantasy"){
       book[i].style.visibility = "visible";
     }else{
       book[i].style.display = "none";
@@ -58,7 +58,7 @@ function findFantasy(){
 function findHorror(){
   findAll();
   for(let i = 0; i<book.length; i++){
-    if(book[i].id === "uc" || book[i].id === "sekkiz" || book[i].id === "on"){
+    if(book[i].className === "book horror"){
       book[i].style.visibility = "visible";
     }else{
       book[i].style.display = "none";
@@ -69,7 +69,7 @@ function findHorror(){
 function findFiction(){
   findAll();
   for(let i = 0; i<book.length; i++){
-    if(book[i].id === "bir" || book[i].id === "dord"){
+    if(book[i].className === "book fiction"){
       book[i].style.visibility = "visible";
     }else{
       book[i].style.display = "none";
