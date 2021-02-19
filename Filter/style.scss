@@ -8,11 +8,12 @@ $main-text-color: rgb(3, 59, 3);
 }
 
 img{
-  width: 200px;
+  width: 150px;
 }
 
 .title{
   text-align: center;
+  margin: 20px;
 }
 
 .purple{
@@ -29,6 +30,7 @@ img{
   color: $main-text-color;
   font-size: 30px;
   text-align: center;
+  margin: 20px;
 }
 
 button{
@@ -44,10 +46,16 @@ button{
   padding: 5px;
 }
 
+.buttons{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .searcing{
   background-color: $main-color;
   padding: 10px;
-  width: 700px;
+  width: 750px;
   display: flex;
   justify-content: center;
 }
@@ -80,6 +88,21 @@ section{
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  background-color: rgb(219, 216, 216);
+  background-color: rgb(230, 230, 230);
   padding: 20px;
+}
+
+.allBooks{
+  display: flex;
+  width: 750px;
+  flex-wrap: wrap;
+
+}
+
+.book{
+  border: 2px solid black;
+  padding-bottom: 10px;
+  width: 200px;
+  background-color: white;
+  margin: 20px;
 }
