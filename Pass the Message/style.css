@@ -1,1 +1,58 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 5px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #dad5d5;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 300px;
+  margin-top: 150px;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  outline: none;
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  width: 60px;
+  margin-left: 115px;
+  color: tomato;
+  font-weight: bold;
+  border-color: tomato;
+  outline: none;
+}
+
+h2 {
+  color: #f84222;
+}
+/*# sourceMappingURL=style.css.map */

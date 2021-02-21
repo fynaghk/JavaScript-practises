@@ -1,0 +1,48 @@
+*{
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(218, 213, 213);
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 300px;
+  margin-top: 150px;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input{
+  height: 30px;
+  outline: none;
+  font-size: 20px;
+}
+
+button{
+  height: 30px;
+  width: 60px;
+  margin-left: 115px;
+  color: tomato;
+  font-weight: bold;
+  border-color: tomato;
+  outline: none;
+}
+
+h2{
+  color: rgb(248, 66, 34);
+}
+
