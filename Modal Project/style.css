@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  width: 200px;
+}
+
+.mainBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 130px;
+}
+
+.allBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ada9a9;
+  width: 720px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+  border: 2px solid black;
+}
+/*# sourceMappingURL=style.css.map */

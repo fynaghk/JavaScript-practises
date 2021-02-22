@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 200px;
+}
+
+.mainBox{
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+
+.allBoxes{
+  display: flex;
+  background-color: rgb(173, 169, 169);
+  width: 720px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  border: 2px solid black;
+}
