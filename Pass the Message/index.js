@@ -3,20 +3,24 @@ const btn = document.querySelector("button");
 
 let deliveredMessage = document.querySelector(".hidden");
 
-deliveredMessage.style.color = "green";
+deliveredMessage.style.display = "none";
+
+btn.addEventListener("onclick", show());
 
 btn.addEventListener("click", myFunction);
 
 
 function myFunction(){
   if (input.value == ""){
-    setTimeout(function(){
       alert("Name must be filled out");
-    }, "5000");
-  }else{
-    setTimeout(function(){
-      alert("leleel");
-    }, "5000");
-    localStorage.setItem(input.value, "added");
+    }else{
+        localStorage.setItem(input.value, "added");
   }
 }
+
+function show(){
+  setInterval(function(){
+  deliveredMessage.style.display = "block";
+  }, 5000);
+}
+
