@@ -30,6 +30,17 @@ img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 20px;
+  padding-bottom: 0px;
   border: 2px solid black;
+}
+
+.box {
+  margin-bottom: 30px;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
