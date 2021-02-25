@@ -2,8 +2,7 @@ const box = document.querySelector(".box");
 const modalImage = document.querySelector(".modalImage");
 const rightBtn = document.querySelector(".fa-arrow-circle-right");
 const leftBtn = document.querySelector(".fa-arrow-circle-left");
-let i = 1;
-let j;
+let i = 0;
 
 const imageArray = [
   "url('./images/Sherlock1.png')",
@@ -13,29 +12,38 @@ const imageArray = [
   "url('./images/Sherlock5.png')",
   "url('./images/Sherlock6.png')"
 ]
+
 modalImage.style.background = imageArray[0];
 
 rightBtn.addEventListener("click", rightBtnFunction);
+
 leftBtn.addEventListener("click", leftBtnFunction);
 
+
+
 function rightBtnFunction(){
-    if(i<imageArray.length){
-      modalImage.style.background = imageArray[i];
+    if(i<imageArray.length-1){
+      modalImage.style.background = imageArray[i+1];
       console.log(i);
       i++;
     }else{
+      console.log(i);
       modalImage.style.background = imageArray[i];
     }
-    j = i - 1;
 }
 
+
 function leftBtnFunction(){
-  if(j<=imageArray.length && j>=0){
-    modalImage.style.background = imageArray[j-1];
-    console.log(j);
-    j--;
+  if(i<=imageArray.length && i>0){
+    modalImage.style.background = imageArray[i-1];
+    console.log(i);
+    i--;
   }else{
-    modalImage.style.background = imageArray[j];
+    console.log(i);
+    modalImage.style.background = imageArray[i];
   }
-  i = j + 1;
+}
+
+function selectImage(){
+
 }
