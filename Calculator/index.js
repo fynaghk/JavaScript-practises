@@ -23,9 +23,11 @@ const input = document.querySelector("#screen"),
        dotBtn = document.querySelector("#dot");
 
 const keys = document.querySelectorAll("button");
-let operationFirst = "";
 
+let operationFirst = "";
 let operationSecond = "";
+
+let answer;
 
 let firstElement = true;
 
@@ -48,7 +50,10 @@ doubleZeroBtn.addEventListener("click", addDoubleZero);
 
 //  ---Operation Buttons
 
-plusMinusBtn.addEventListener("click", addPlusMinus)
+plusMinusBtn.addEventListener("click", addPlusMinus);
+plusBtn.addEventListener("click", add);
+minusBtn.addEventListener("click", subtract);
+
 
 // AddEventListeners section ends there
 
@@ -154,3 +159,14 @@ function addPlusMinus(){
        }
 }
 
+function add(){
+       firstElement = false;
+       operationSecond = 5;
+       answer = operationFirst + operationSecond;
+       console.log(answer);
+}
+
+function subtract(opoperationFirst, operationSecond){
+       firstElement = false;
+       answer = opoperationFirst - operationSecond;
+}
