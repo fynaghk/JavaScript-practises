@@ -1,10 +1,4 @@
 const input = document.querySelector("#screen"),
-       MCbtn = document.querySelector("#mc"),
-       MRbtn = document.querySelector("#mr"),
-       mMinusBtn = document.querySelector("#mMinus"),
-       mPlusBtn = document.querySelector("#mPlus"),
-       squareBtn = document.querySelector("#squareRoot"),
-       MUbtn = document.querySelector("#mu"),
        plusMinusBtn = document.querySelector("#plusMinus"),
        sevenBtn = document.querySelector("#seven"),
        eightBtn = document.querySelector("#eight"),
@@ -28,14 +22,5 @@ const input = document.querySelector("#screen"),
        doubleZeroBtn = document.querySelector("#doubleZero"),
        dotBtn = document.querySelector("#dot");
 
-const keys = document.querySelector("button");
+const keys = document.querySelectorAll("button");
 
-modulBtn.addEventListener("click", ()=>{
-
-})
-
-keys.addEventListener("click", e => {
-       if (e.target.matches("button")){
-
-       }
-       })
