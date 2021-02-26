@@ -25,6 +25,10 @@ const input = document.querySelector("#screen"),
 const keys = document.querySelectorAll("button");
 let operationFirst = "";
 
+let operationSecond = "";
+
+let firstElement = true;
+
 // AddEventListeners section starts there
 
 
@@ -44,69 +48,109 @@ doubleZeroBtn.addEventListener("click", addDoubleZero);
 
 //  ---Operation Buttons
 
-
+plusMinusBtn.addEventListener("click", addPlusMinus)
 
 // AddEventListeners section ends there
 
 // My Functions start there
 
 function addOne(){
-       operationFirst += "1";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "1";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addTwo(){
-       operationFirst += "2";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "2";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addThree(){
-       operationFirst += "3";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "3";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addFour(){
-       operationFirst += "4";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "4";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addFive(){
-       operationFirst += "5";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "5";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addSix(){
-       operationFirst += "6";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "6";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addSeven(){
-       operationFirst += "7";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "7";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addEight(){
-       operationFirst += "8";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "8";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addNine(){
-       operationFirst += "9";
-       input.innerHTML = operationFirst;
-}
-
-function addSeven(){
-       operationFirst += "7";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "9";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addZero(){
-       operationFirst += "0";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "0";
+              input.innerHTML = operationFirst;
+       }
 }
 
 function addDoubleZero(){
-       operationFirst += "00";
-       input.innerHTML = operationFirst;
+       if(firstElement === true){
+              operationFirst += "00";
+              input.innerHTML = operationFirst;
+       }
+}
+
+
+function addPlusMinus(){
+       if(firstElement === true){
+              operationFirst = 0 - operationFirst;
+              input.innerHTML = (operationFirst);
+
+              plusMinusBtn.addEventListener("click", ()=>{
+                     if(operationFirst<0){
+                            input.innerHTML = (operationFirst);
+                     }
+              })
+       }else{
+              operationSecond = 0 - operationSecond
+              input.innerHTML = (operationSecond);
+
+              plusMinusBtn.addEventListener("click", ()=>{
+                     if(operationSecond<0){
+                            input.innerHTML = (operationSecond);
+                     }
+              })
+       }
 }
 
