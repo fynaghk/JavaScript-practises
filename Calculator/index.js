@@ -23,9 +23,12 @@ const input = document.querySelector("#screen"),
        dotBtn = document.querySelector("#dot");
 
 const keys = document.querySelectorAll("button");
-let operation = "";
+let operationFirst = "";
 
 // AddEventListeners section starts there
+
+
+// ---Digit Buttons
 
 oneBtn.addEventListener("click", addOne);
 twoBtn.addEventListener("click", addTwo);
@@ -39,65 +42,71 @@ nineBtn.addEventListener("click", addNine);
 zeroBtn.addEventListener("click", addZero);
 doubleZeroBtn.addEventListener("click", addDoubleZero);
 
+//  ---Operation Buttons
+
+
+
+// AddEventListeners section ends there
+
 // My Functions start there
 
 function addOne(){
-       operation += "1";
-       input.innerHTML = operation;
+       operationFirst += "1";
+       input.innerHTML = operationFirst;
 }
 
 function addTwo(){
-       operation += "2";
-       input.innerHTML = operation;
+       operationFirst += "2";
+       input.innerHTML = operationFirst;
 }
 
 function addThree(){
-       operation += "3";
-       input.innerHTML = operation;
+       operationFirst += "3";
+       input.innerHTML = operationFirst;
 }
 
 function addFour(){
-       operation += "4";
-       input.innerHTML = operation;
+       operationFirst += "4";
+       input.innerHTML = operationFirst;
 }
 
 function addFive(){
-       operation += "5";
-       input.innerHTML = operation;
+       operationFirst += "5";
+       input.innerHTML = operationFirst;
 }
 
 function addSix(){
-       operation += "6";
-       input.innerHTML = operation;
+       operationFirst += "6";
+       input.innerHTML = operationFirst;
 }
 
 function addSeven(){
-       operation += "7";
-       input.innerHTML = operation;
+       operationFirst += "7";
+       input.innerHTML = operationFirst;
 }
 
 function addEight(){
-       operation += "8";
-       input.innerHTML = operation;
+       operationFirst += "8";
+       input.innerHTML = operationFirst;
 }
 
 function addNine(){
-       operation += "9";
-       input.innerHTML = operation;
+       operationFirst += "9";
+       input.innerHTML = operationFirst;
 }
 
 function addSeven(){
-       operation += "7";
-       input.innerHTML = operation;
+       operationFirst += "7";
+       input.innerHTML = operationFirst;
 }
 
 function addZero(){
-       operation += "0";
-       input.innerHTML = operation;
+       operationFirst += "0";
+       input.innerHTML = operationFirst;
 }
 
 function addDoubleZero(){
-       operation += "00";
-       input.innerHTML = operation;
+       operationFirst += "00";
+       input.innerHTML = operationFirst;
 }
 
