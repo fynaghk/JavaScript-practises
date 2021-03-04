@@ -93,6 +93,9 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-right: 50px;
+  position: fixed;
+  z-index: 13;
+  margin: 20px;
 }
 
 .icons {

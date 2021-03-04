@@ -62,7 +62,10 @@ img{
 .one .two .three{
   display: flex;
   flex-direction: column;
-  margin-right:50px;
+  margin-right: 50px;
+  position: fixed;
+  z-index: 13;
+  margin: 20px;
 }
 
 .icons{
